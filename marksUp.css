@@ -1,0 +1,126 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body
+{
+    width: auto;
+    background-size: cover;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url( Background/wallpaperflare.com_wallpaper\ \(4\).jpg);
+    height: 100vh;
+}
+h1
+{
+    color: skyblue;
+    text-align: center;
+}
+.btn1
+{
+    width: 8%;
+    height: 25px;
+    background: whitesmoke;
+    margin-left: 2%;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    margin-top: 5px;
+    color: black;
+}
+.btn1 a{
+    color: red;
+}
+.btn1:hover
+{
+    background: greenyellow;
+}
+.main
+{
+    background: transparent;
+    width: 450px;
+    height: 680px;
+    border-radius: 4px;
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0,0.5);
+    margin-left: 35%;
+    margin-top: 20px;
+}
+.input
+{
+   width: 100%;
+   height: 30x;
+   padding: 8px 0 8px 20px;  
+
+}
+label
+{
+    float: left;
+    width: 100%;
+    padding: 8px 0 8px 40px; 
+    color:  yellow;
+
+}
+.input-text
+{
+    width: 70%;
+    height: 30px;
+    padding-left: 15px;
+    margin-left: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.srch
+{
+    width: 50%;
+    height: 30px;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-left: 65px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.btn
+{
+    width: 40%;
+    height: 35px;
+    background: orangered;
+    color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 30%;
+    border: none;
+}
+.btn:hover
+{
+    cursor: pointer;
+    background-color: yellowgreen;
+    transform: scale(1.1);
+    transform: 0.5s;
+}
+.btnn
+{
+    width: 20%;
+    height: 32px;
+    background: purple;
+    color: yellow;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 18px;
+    margin-left: 10px;
+    border: none; 
+    text-align: center;
+}
+.btnn:hover
+{
+    cursor: pointer;
+    background-color: yellowgreen;
+    transform: scale(1.1);
+    transform: 0.5s; 
+}

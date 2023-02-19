@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    background-color:blueviolet;
+    background-image: url(image/wallpaperflare.com_wallpaper\ \(4\).jpg);
+    background-size: cover;
+     
+
+}
+.continer{
+    background: transparent;
+    width: 450px;
+    padding: 25px;
+    margin: 50px auto;
+    border-top: 5px solid blue;
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0,0.5);
+    border-radius: 10px ;
+
+}
+.continer h2{
+    font-size: 24px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    text-align: center;
+    text-decoration-color: yellowgreen;
+
+}
+
+.input-name{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+}
+
+.lock{
+    padding: 8px 11px;
+}
+
+.name{
+    width: 100%;
+    padding: 8px 0 8px 40px;
+
+}
+.text-name{
+    width: 100%;
+    padding: 8px 0 8px 40px;
+}
+
+.input-name i{
+    position: absolute;
+    font-size: 18px;
+    color: blue;
+    border-right: 1px solid #cccccc;
+
+}
+
+.email{
+    padding: 8px;
+}
+
+.text-name, .name{
+    border: 1px solid #cccccc;
+    outline: none;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+    
+}
+
+.text-name:hover, .name:hover{
+    background-color: #fafafa;
+}
+
+.text-name:focus, .name:focus{
+    border: 1px solid blue;
+}
+
+.radio-button{
+    margin-right: 4px;
+}
+
+.state{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    padding: 0px 15px;
+    cursor: pointer;
+    border: 1px solid #7b7b7b;
+    background-color: white
+}
+
+ 
+ .button{
+    background-color: orange;
+    color: #000;
+    height: 35px;
+    line-height: 35px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+ }
+
+ .button:hover{
+    background: yellow;
+    cursor: pointer;
+    transform: 0.3s ease;
+ }
+
+ @media (max-width:480px)
+ {
+    .continer{
+        width: 100%;
+        padding: 5px;
+    }
+    .input-name{
+        margin-bottom: -10px;
+
+    }
+    .name{
+        width: 100%;
+        padding: 8px 0 8px 40px;
+        margin-bottom: 10px;
+    }
+    .input-name span
+    {
+        padding: 0;
+        margin: 0;
+    }
+    .form-continer{
+        
+        width: 100%;
+
+    }
+
+ }
+
+ .abb{
+    background: white;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 50%;
+ }

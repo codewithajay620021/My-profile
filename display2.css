@@ -1,0 +1,27 @@
+ table,th,td,tr{
+   border-collapse: collapse;
+   border: 1px solid;
+   background-color: yellowgreen;
+   height: 30px;
+   width: 650px;
+   margin-left: 15%;
+   text-align: center;
+
+ }
+
+ h1{
+    text-align: center;
+    color: brown;
+    
+ }
+
+ .ab{
+   background: white;
+   text-align: center;
+   border-radius: 4px;
+   margin-left: 73%;
+ }
+ button:hover{
+  cursor: pointer;
+   color: blueviolet;
+ }
